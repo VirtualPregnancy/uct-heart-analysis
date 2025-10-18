@@ -3,6 +3,30 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+## MATLAB specific files
+# Autosave files
+*.asv
+*.m~
+*.autosave
+
+# Compiled MEX binaries (all platforms)
+*.mex*
+
+# Simulink Code Generation
+slprj/
+
+# Simulink autosave
+.autosave
+
+# Session info (if using Octave or similar)
+octave-workspace
+
+# Other common temporary or generated files
+*.log
+*.tmp
+*.bak
+*.slx.original
+
 # C extensions
 *.so
 
